@@ -18,3 +18,31 @@ Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learn
 
 [lil-course-url]: https://www.linkedin.com/learning/testing-python-data-science-code
 [lil-thumbnail-url]: https://cdn.lynda.com/course/2477020/2477020-1661795583756-16x9.jpg
+
+## Chapters
+
+- Ch02 - pytest
+- Ch03 - hypotesis
+- Ch04 - Data Validation
+- Ch05 - Regression testing
+- Ch06 - Testing Jupiter notebook
+
+## Run tests
+```shell
+python -m pytest
+```
+
+## Run marked tests
+```shell
+python -m pytest -m web
+```
+
+## Run tests with logging (by default it suppressed)
+```shell
+python -m pytest -v --log-cli-level INFO -k test_api
+```
+
+## Run tests with prints
+```shell
+python -m pytest -v --log-cli-level INFO -k test_activation -s
+```

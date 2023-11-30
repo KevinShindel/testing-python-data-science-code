@@ -1,6 +1,4 @@
-flask~=2.1
-hypothesis~=6.52
-ipython~=8.4
+flask~=3.0.0
 jupyterlab~=3.4
 pandas~=1.4
 pandera~=0.11
@@ -9,3 +7,4 @@ pytest~=7.1
 PyYAML~=6.0
 scikit-learn~=1.1
 testbook~=0.4
+tracklib>=0.6.9
